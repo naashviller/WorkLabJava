@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="main.js"></script>
+</head>
+<body>
+<div>
+    <input type="text" id="argumentA">
+    <br>
+    <br>
+    <input type="text" id="argumentB">
+    <br>
+    <br>
+    <button onclick="alert(
+		calc(Number(document.getElementById('argumentA').value),
+			Number(document.getElementById('argumentB').value),
+			sum))">Sum</button>
+    <br>
+    <br>
+    <button onclick="alert(
+		calc(Number(document.getElementById('argumentA').value),
+			Number(document.getElementById('argumentB').value),
+			mult))">Mult</button>
+    <br>
+    <br>
+    <button onclick="alert(
+		calc(Number(document.getElementById('argumentA').value),
+			Number(document.getElementById('argumentB').value),
+			sub))">Sub</button>
+</div>
+</body>
+</html>
