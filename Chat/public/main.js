@@ -1,4 +1,3 @@
-/*
 var port = 3000; // Указываем порт на котором у на стоит сокет
 var socket = io.connect('http://localhost:' + port);
 // Тут мы объявляем "socket" (дальше мы будем с ним работать) и подключаемся сразу к серверу через порт
@@ -23,4 +22,5 @@ $(document).on('click', 'button', function(){ // Прослушка кнопки
 socket.on('messageToClients', function(msg, name){
     console.log(name + ' | => ' + msg); // Логгирование в консоль браузера
     $('textarea').val($('textarea').val() + name + ' : '+ msg +'\n'); // Добавляем в поле для текста сообщение типа (Ник : текст)
-});*/
+});
+
